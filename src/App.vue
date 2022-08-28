@@ -1,7 +1,5 @@
 <script setup></script>
 
-<template>
-	<div>tiennguyen</div>
-</template>
+<template><router-view /></template>
 
 <style scoped></style>
