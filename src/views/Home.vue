@@ -608,10 +608,10 @@
     </div>
   </div>
   <!-- container -->
-  <div class="contai w-full -z-50 h-full pb-96">
+  <div class="contai w-full -z-50 pb-96">
     <img src="../assets/Desk_top-head.webp" alt="" class="">
     <!-- form slider -->
-    <form class="w-[1200px] bg-white flex shadow-md mx-auto rounded-lg">
+    <form class="w-[1200px] bg-white flex shadow-md mx-auto rounded-lg mb-8">
       <div class="w-[800px]">
         <div class="">
           <img src="../assets/shider1.webp" alt="" class="w-[800px] h-[300px] rounded p-1">
@@ -669,19 +669,97 @@
         </div>
       </div>
     </form>
-
+<!-- form sản phẩm -->
+    <form action="" class="w-[1200px] h-[321px]  bg-white border border-[#ccc] mx-auto rounded-md truncate">
+      <ul class="grid grid-cols-6">
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-mobile.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Điện thoại</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-laptop.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Laptop</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-pc.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">PC - Lắp ráp</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-tablet.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Máy tính bảng</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-smart.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Thiết bị thông minh</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-houseware.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Gia dụng</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-apple.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Apple</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-samsung.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Samsung</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-smartwatch.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Đồng hồ thông minh</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-accessories.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Phụ kiện</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-screen.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Màn hình</p>
+        </li>
+        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+          <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
+            <img src="../assets/img-sp/icon-tcdm.webp" alt="" class="">
+          </div>
+          <p class="pt-2 text-black">Máy cũ</p>
+        </li>
+        
+      </ul>
+    </form>
   </div>
 </template>
 <script>
-export default {
+  export default {
 
-}
-
+  }
+</script>
 <style scoped>
-  .contai {
+.contai {
   background-image: url("../assets/Desk_Header_Background.webp");
   background-size: cover;
 }
+
 .show-info:hover>.hidden-info {
   display: block;
 }
@@ -745,17 +823,21 @@ export default {
 .hidden-phone {
   display: none;
 }
+
 .show-voucher:hover>.hidden-voucher {
   display: block;
 }
+
 .hidden-voucher {
-  display:none;
+  display: none;
 }
+
 .show-dt:hover>.hidden-dt {
-  display:block;
+  display: block;
 }
+
 .hidden-dt {
-  display:none;
+  display: none;
 }
 </style>
 
