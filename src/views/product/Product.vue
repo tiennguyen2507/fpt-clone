@@ -4,6 +4,7 @@
     <div v-for="(item, index) in items" :key="index">
       <img :src="item.img" />
       {{ item.img }}
+      1
     </div>
   </div>
 </template>
