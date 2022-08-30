@@ -599,7 +599,7 @@
     </div>
   </div>
   <!-- container -->
-  <div class="contai w-full -z-50 pb-96">
+  <div class="contai w-full -z-50 pb-96 bg-[#f4f4f4]">
     <img src="../assets/Desk_top-head.webp" alt="" class="">
     <!-- form slider -->
     <form class="w-[1200px] bg-white flex shadow-md mx-auto rounded-lg mb-8">
@@ -661,7 +661,7 @@
       </div>
     </form>
 <!-- form sản phẩm -->
-    <form action="" class="w-[1200px] h-[321px]  bg-white border border-[#ccc] mx-auto rounded-md truncate">
+    <form action="" class="w-[1200px] h-[321px]  bg-white border border-[#ccc] mx-auto rounded-md truncate mb-14">
       <ul class="grid grid-cols-6">
         <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
@@ -735,7 +735,122 @@
           </div>
           <p class="pt-2 text-black">Máy cũ</p>
         </li>
-        
+      </ul>
+    </form>
+    <!-- form gold time -->
+    <form action="" class="w-[1200px] bg-white mx-auto border-2 border-red-500 rounded-md">
+      <ul class="grid grid-cols-4 m-0 relative">
+        <li class="">
+          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
+              29/08
+              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+                12:00 - 14:00
+              </div>
+            </div>
+            <p class="mb-0 text-base">Đã kết thúc</p>
+          </div>
+          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
+            <div class="relative pt-2 hover:scale-[101%]">
+              <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
+              <img src="../assets/img-gold-time/smartwatch.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+            </div>
+            <div class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
+              Đồng hồ Casio MW-600F-2AVDF
+            </div>
+            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
+              326.000 ₫
+              <p class="line-through text-sm text-[#ccc] font-light leading-7 ml-2">825.000 ₫</p>
+            </div>
+            <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
+          </div>
+        </li>
+        <li class="">
+          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-red-500 text-white">
+            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
+              30/08
+              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+                12:00 - 14:00
+              </div>
+            </div>
+            <p class="mb-0 text-base">Đã kết thúc</p>
+          </div>
+          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
+            <div class="relative pt-2 hover:scale-[101%]">
+              <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
+              <img src="../assets/img-gold-time/OP-IPHONE.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+            </div>
+            <div class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
+              Ốp lưng iPhone 13 Pro Max
+            </div>
+            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
+              345.000 ₫
+              <p class="line-through text-sm text-[#ccc] font-light leading-7 ml-2">690.000 ₫</p>
+            </div>
+            <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
+          </div>
+        </li>
+        <li class="">
+          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
+              31/08
+              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+                12:00 - 14:00
+              </div>
+            </div>
+            <p class="mb-0 text-base">Đã kết thúc</p>
+          </div>
+          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
+            <div class="relative pt-2 hover:scale-[101%]">
+              <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
+              <img src="../assets/img-gold-time/may-loc-khong-khi.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+            </div>
+            <div class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
+              Máy lọc không khí Kangaroo
+            </div>
+            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
+              1.900.000 ₫
+              <p class="line-through text-sm text-[#ccc] font-light leading-7 ml-2">2.350.000 ₫</p>
+            </div>
+            <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
+          </div>
+        </li>
+        <li class="">
+          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
+              1/09
+              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+                12:00 - 14:00
+              </div>
+            </div>
+            <p class="mb-0 text-base">Đã kết thúc</p>
+          </div>
+          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
+            <div class="relative pt-2 hover:scale-[101%]">
+              <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
+              <img src="../assets/img-gold-time/lenovo.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+            </div>
+            <div class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
+              Lenovo Ideapad Slim 3 i3 1115G4
+            </div>
+            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
+              8.495.000 ₫
+              <p class="line-through text-sm text-[#ccc] font-light leading-7 ml-2">12.825.000 ₫</p>
+            </div>
+            <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
+          </div>
+        </li>
+        <li class="flex justify-center items-center rounded-full w-[520px] h-[56px] bg-yellow-200 absolute top-[-28px] left-[340px]">
+          <h3 class="text-4xl font-bold text-[#cb1c22] leading-[56px] m-0">Giờ vàng giá sốc</h3>
+          <p class="text-xl mb-0 ml-4 px-2 border-l-2 border-[#ccc] text-[#0664f9] font-medium cursor-pointer">
+            Xem thể lệ
+            <i class="fa-solid fa-caret-right mt-1"></i>
+          </p>
+        </li>
       </ul>
     </form>
   </div>
