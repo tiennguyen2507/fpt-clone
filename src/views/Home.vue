@@ -1,68 +1,41 @@
 <!-- eslint-disable vue/no-multiple-template-root -->
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
-  <div class="relative">
+  <div class="relative" class="relative">
     <div class="flex justify-center items-center">
-      <img src="../assets/clipse.svg" alt="" class="w-[30px] h-[30px]" />
-      <p class="text-[#ff001f] cursor-text m-[10px]">
+      <img src="../assets/clipse.svg" alt="" class="w-[30px] h-[30px]">
+      <p class=" text-[#ff001f] cursor-text m-[10px]">
         <strong class="text-sm font-bold">Laptop</strong>
         giảm đến
         <strong class="text-sm font-bold">40%</strong>
         cho học sinh sinh viên
       </p>
-      <button
-        class="bg-[#2183f6] w-[92px] h-6 text-xs text-white rounded-sm cursor-pointer"
-      >
-        Nhận mã ngay
-      </button>
+      <button class="bg-[#2183f6] w-[92px] h-6 text-xs text-white rounded-sm cursor-pointer">Nhận mã ngay</button>
     </div>
     <!-- Header -->
     <div class="bg-[#cd1818] flex justify-center">
       <div class="flex justify-around items-center bg-[#cd1818] w-[1200px]">
-        <img
-          src="../assets/logofpt.png"
-          alt=""
-          class="w-[151] h-10 bg-[#cd1818] rounded"
-        />
+        <img src="../assets/logofpt.png" alt="" class="w-[151] h-10 bg-[#cd1818] rounded">
         <div class="flex">
-          <input
-            type="text"
-            placeholder="Nhập tên điện thoại,máy tính phụ kiện...cần tìm"
-            class="rounded-sm w-[496px] h-[38px] px-2 rounded-l-md outline-none"
-          />
+          <input type="text" placeholder="Nhập tên điện thoại,máy tính phụ kiện...cần tìm"
+            class="rounded-sm w-[496px] h-[38px] px-2 rounded-l-md outline-none">
           <button class="bg-[#000000] w-[58px] text-white rounded-r-md">
             <i class="fa-solid fa-magnifying-glass text-xl"></i>
           </button>
         </div>
-        <ul
-          class="flex justify-between h-[63px] w-[449px] items-center text-white"
-        >
-          <li
-            class="text-center h-[55px] mt-7 cursor-pointer relative show-info"
-          >
+        <ul class="flex justify-between h-[63px] w-[449px] items-center text-white">
+          <li class="text-center h-[55px] mt-7 cursor-pointer relative show-info">
             <i class="fa-solid fa-file-lines text-xl"></i>
             <p class="mt-1 mb-0">Thông tin hay</p>
             <ul
-              class="w-[200px] bg-white text-gray-600 text-start px-3 py-2 shadow-lg absolute z-50 top-[52px] left-0 hidden-info"
-            >
+              class="w-[200px] bg-white text-gray-600 text-start px-3 py-2 shadow-lg absolute z-50 top-[52px] left-0 hidden-info">
               <li class="hover:text-black w-40 h-8 cursor-pointer">Tin mới</li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                khuyến mãi
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Thủ thuật
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                For Gamers
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Video hot
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Đánh giá - tư vấn
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                App & game
-              </li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">khuyến mãi</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">Thủ thuật</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">For Gamers</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">Video hot</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">Đánh giá - tư vấn</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">App & game</li>
               <li class="hover:text-black w-40 h-8 cursor-pointer">Sự kiện</li>
             </ul>
           </li>
@@ -75,7 +48,7 @@
             <p class="mt-1 mb-0">Tài khoản của tôi</p>
           </li>
           <li class="text-center h-[63px] mt-7">
-            <i class="fa-solid fa-cart-shopping text-xl"></i>
+            <i class="fa-solid fa-cart-shopping  text-xl"></i>
             <p class="mt-1 mb-0">Giỏ hàng</p>
           </li>
         </ul>
@@ -86,122 +59,79 @@
       <div class="w-full h-9 bg-[#212529] flex justify-center">
         <ul class="w-[1200px] h-9 flex justify-between">
           <li class="leading-9 relative show-mobi">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-mobile-screen-button"></i>
               ĐIỆN THOẠI
             </a>
             <!-- form mobile -->
-            <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-0 right-0 z-50 bg-white hidden-mobi"
-            >
-              <div class="w-[395px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  HÃNG SẢN XUẤT
-                </div>
+            <form class="w-[1200px] flex shadow-md absolute top-9 left-0 right-0 z-50 bg-white hidden-mobi">
+              <div class="w-[395px] p-3 ">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">HÃNG SẢN XUẤT</div>
                 <div class="w-[395px] grid grid-cols-3">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple(iPhone)</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple(iPhone)</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Xiaomi</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Xiaomi</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Nokia</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Nokia</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Realme</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Realme</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Samsung</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Samsung</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Vivo</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Vivo</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Asus</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Asus</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >OPPO</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">OPPO</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Tecno</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Tecno</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Masstel</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Masstel</a>
                     </li>
                   </ul>
                 </div>
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  ĐỒNG HỒ THÔNG MINH
-                </div>
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">ĐỒNG HỒ THÔNG MINH</div>
                 <div class="w-[395px] grid grid-cols-3">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple Watch</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple Watch</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Masstel</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Masstel</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Huawei</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Huawei</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Samsung</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Samsung</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Xiaomi</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Xiaomi</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >OPPO</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">OPPO</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Garmin</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Garmin</a>
                     </li>
                   </ul>
                 </div>
@@ -211,163 +141,98 @@
                 <div class="w-[180px]">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Dưới 2 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Dưới 2 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 2 - 4 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 2 - 4 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 4- 7 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 4- 7 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 7 - 13 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 7 - 13 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Trên 13 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Trên 13 triệu</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="w-[347px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  BÁN CHẠY NHẤT
-                </div>
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">BÁN CHẠY NHẤT</div>
                 <div class="flex mb-3">
-                  <img
-                    src="../assets/samsung-galaxy-a53-xanh-dd-icon.webp"
-                    alt=""
-                    class="w-20 h-20"
-                  />
+                  <img src="../assets/samsung-galaxy-a53-xanh-dd-icon.webp" alt="" class="w-20 h-20">
                   <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >Samsung Galaxy A53 5G 256GB</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      10.990.000 ₫
-                    </p>
+                    <a href="" class="text-gray-900 hover:text-black">Samsung Galaxy A53 5G 256GB</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">10.990.000 ₫</p>
                   </div>
                 </div>
                 <div class="flex">
-                  <img
-                    src="../assets/oppo-a55-dd.webp"
-                    alt=""
-                    class="w-20 h-20"
-                  />
+                  <img src="../assets/oppo-a55-dd.webp" alt="" class="w-20 h-20">
                   <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >OPPO A55 4GB-64GB</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      3.990.000 ₫
-                    </p>
+                    <a href="" class="text-gray-900 hover:text-black">OPPO A55 4GB-64GB</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">3.990.000 ₫</p>
                   </div>
                 </div>
               </div>
               <div class="w-[276px] p-3 mt-5">
-                <img
-                  src="../assets/logo-oppo.webp"
-                  alt=""
-                  class="w-[248px] h-[248px]"
-                />
+                <img src="../assets/logo-oppo.webp" alt="" class="w-[248px] h-[248px]">
               </div>
             </form>
           </li>
           <li class="leading-9 relative show-loptop">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-laptop"></i>
               LOPTOP
             </a>
             <!-- form loptop -->
-            <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-[-118px] bg-white right-0 hidden-loptop"
-            >
-              <div class="w-[557px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  HÃNG SẢN XUẤT
-                </div>
+            <form class="w-[1200px] flex shadow-md absolute top-9 left-[-118px] bg-white right-0 hidden-loptop">
+              <div class="w-[557px] p-3 ">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">HÃNG SẢN XUẤT</div>
                 <div class="w-[557px] grid grid-cols-3">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple(MacBook)</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple(MacBook)</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Acer</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Acer</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Dell</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Dell</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Fujitsu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Fujitsu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Masstel</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Masstel</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Asus</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Asus</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >MSI</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">MSI</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Microsoft(Surface)</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Microsoft(Surface)</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Chuwi</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Chuwi</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >HP</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">HP</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Lenovo</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Lenovo</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Gigabyte</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Gigabyte</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Avita</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Avita</a>
                     </li>
                   </ul>
                 </div>
@@ -376,28 +241,20 @@
                 <div class="w-[557px] grid grid-cols-3">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Diệt virut</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Diệt virut</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Phần mềm khác</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Phần mềm khác</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Microsoft office</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Microsoft office</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Windows</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Windows</a>
                     </li>
                   </ul>
                 </div>
@@ -407,108 +264,71 @@
                 <div class="w-[253px]">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Dưới 5 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Dưới 5 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 5 - 10 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 5 - 10 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 10 - 15 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 10 - 15 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 15 - 20 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 15 - 20 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 20 - 25 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 20 - 25 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Trên 30 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Trên 30 triệu</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="w-[388px] p-3 mt-5">
-                <img
-                  src="../assets/logo-loptop.webp"
-                  alt=""
-                  class="w-[248px] h-[248px] mx-auto"
-                />
+                <img src="../assets/logo-loptop.webp" alt="" class="w-[248px] h-[248px] mx-auto">
               </div>
             </form>
+
           </li>
           <li class="leading-9 relative show-tablet">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-tv"></i>
               MÁY TÍNH BẢNG
             </a>
             <!--form máy tinh bảng -->
-            <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-[-219px] bg-white right-0 hidden-tablet"
-            >
-              <div class="w-[395px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  HÃNG SẢN XUẤT
-                </div>
+            <form class="w-[1200px] flex shadow-md absolute top-9 left-[-219px] bg-white right-0 hidden-tablet">
+              <div class="w-[395px] p-3 ">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">HÃNG SẢN XUẤT</div>
                 <div class="w-[395px] grid grid-cols-3">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple(iPad)</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple(iPad)</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Lenovo</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Lenovo</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >OPPO</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">OPPO</a>
+                    </li>
+
+                  </ul>
+                  <ul class="text-[13px]">
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Samsung</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Xiaomi</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Nexta</a>
                     </li>
                   </ul>
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Samsung</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Masstel</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Xiaomi</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Nexta</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="text-[13px]">
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Masstel</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Coolpad</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Coolpad</a>
                     </li>
                   </ul>
                 </div>
@@ -518,199 +338,34 @@
                 <div class="w-[180px]">
                   <ul class="text-[13px]">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Dưới 2 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Dưới 2 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 2 - 5 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 2 - 5 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Từ 5 - 8 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Từ 5 - 8 triệu</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Trên 8 triệu</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Trên 8 triệu</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="w-[347px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  BÁN CHẠY NHẤT
-                </div>
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">BÁN CHẠY NHẤT</div>
                 <div class="flex mb-3">
-                  <img
-                    src="../assets/ipad-pro-11-wifi-dd.webp"
-                    alt=""
-                    class="w-20 h-20 pr-2"
-                  />
+                  <img src="../assets/ipad-pro-11-wifi-dd.webp" alt="" class="w-20 h-20 pr-2">
                   <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >iPad Pro 11 2021 M1 Wi-Fi 128GB</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      19.999.000 ₫
-                    </p>
+                    <a href="" class="text-gray-900 hover:text-black">iPad Pro 11 2021 M1 Wi-Fi 128GB</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">19.999.000 ₫</p>
                   </div>
                 </div>
                 <div class="flex">
-                  <img
-                    src="../assets/samsung-galaxy-tab-s6-lite-2022-xanh-dd-logo.webp"
-                    alt=""
-                    class="w-20 h-20 pr-2"
-                  />
+                  <img src="../assets/samsung-galaxy-tab-s6-lite-2022-xanh-dd-logo.webp" alt="" class="w-20 h-20 pr-2">
                   <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >Samsung Galaxy Tab S6 Lite 2022</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      7.490.000 ₫
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-[276px] p-3 mt-5">
-                <img
-                  src="../assets/tablet.webp"
-                  alt=""
-                  class="w-[248px] h-[248px]"
-                />
-              </div>
-            </form>
-          </li>
-          <li class="leading-9 relative show-apple">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
-              <i class="fa-brands fa-apple"></i>
-              APPLE
-            </a>
-            <!-- form apple -->
-            <form
-              class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-370px] right-0 hidden-apple"
-            >
-              <div class="w-[465px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  CÁC SẢN PHẨM APPLE
-                </div>
-                <div class="w-[465px] grid grid-cols-3">
-                  <ul class="text-[13px]">
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >iPhone</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple Watch</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Mac Mini</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple TV</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >AirTag</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="text-[13px]">
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >iPad</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Apple Tai nghe</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Sạc & cáp</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Chuột và Trackpad</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Hàng dự án</a
-                      >
-                    </li>
-                  </ul>
-                  <ul class="text-[13px]">
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >MacBook</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >iMac</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Ốp lưng & Bao da</a
-                      >
-                    </li>
-                    <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Bàn phím</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="w-[409px] border-l border-r border-[#ccc] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  BÁN CHẠY NHẤT
-                </div>
-                <div class="flex mb-3">
-                  <img
-                    src="../assets/iphone-13-pro-max-dd-2-128-256-512-1tb.webp"
-                    alt=""
-                    class="w-20 h-20 mr-2"
-                  />
-                  <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >iPhone 13 Pro Max 128GB</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      27.990.000 ₫
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <img
-                    src="../assets/iphone-13-bh-2nam-dac-quyen.webp"
-                    alt=""
-                    class="w-20 h-20 mr-2"
-                  />
-                  <div class="">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >iPhone 13 128GB</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      18.990.000 ₫
-                    </p>
+                    <a href="" class="text-gray-900 hover:text-black">Samsung Galaxy Tab S6 Lite 2022</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">7.490.000 ₫</p>
                   </div>
                 </div>
               </div>
@@ -720,22 +375,102 @@
                   alt=""
                   class="w-[248px] h-[248px] mx-auto"
                 />
+                </div>
+              </div>
+              <div class="w-[276px] p-3 mt-5">
+                <img src="../assets/tablet.webp" alt="" class="w-[248px] h-[248px]">
+              </div>
+            </form>
+          </li>
+          <li class="leading-9 relative show-apple">
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
+              <i class="fa-brands fa-apple"></i>
+              APPLE
+            </a>
+            <!-- form apple -->
+            <form class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-370px] right-0 hidden-apple">
+              <div class="w-[465px] p-3 ">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">CÁC SẢN PHẨM APPLE</div>
+                <div class="w-[465px] grid grid-cols-3">
+                  <ul class="text-[13px]">
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">iPhone</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple Watch</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Mac Mini</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple TV</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">AirTag</a>
+                    </li>
+                  </ul>
+                  <ul class="text-[13px]">
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">iPad</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Apple Tai nghe</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Sạc & cáp</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Chuột và Trackpad</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Hàng dự án</a>
+                    </li>
+                  </ul>
+                  <ul class="text-[13px]">
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">MacBook</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">iMac</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Ốp lưng & Bao da</a>
+                    </li>
+                    <li class="h-7">
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Bàn phím</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-[409px] border-l border-r border-[#ccc] p-3">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">BÁN CHẠY NHẤT</div>
+                <div class="flex mb-3">
+                  <img src="../assets/iphone-13-pro-max-dd-2-128-256-512-1tb.webp" alt="" class="w-20 h-20 mr-2">
+                  <div class="">
+                    <a href="" class="text-gray-900 hover:text-black">iPhone 13 Pro Max 128GB</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">27.990.000 ₫</p>
+                  </div>
+                </div>
+                <div class="flex">
+                  <img src="../assets/iphone-13-bh-2nam-dac-quyen.webp" alt="" class="w-20 h-20 mr-2">
+                  <div class="">
+                    <a href="" class="text-gray-900 hover:text-black">iPhone 13 128GB</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">18.990.000 ₫</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-[324px] p-3 mt-5">
+                <img src="../assets/logo-loptop.webp" alt="" class="w-[248px] h-[248px] mx-auto">
               </div>
             </form>
           </li>
           <li class="leading-9 relative show-pc">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-computer"></i>
               PC-LINH KIỆN
             </a>
-            <form
-              action=""
-              class="w-[200px] bg-white shadow-lg absolute left-0 top-9 hidden-pc"
-            >
-              <ul class="py-2 px-5 text-gray-600">
+            <form action="" class="w-[200px] bg-white shadow-lg absolute left-0 top-9 hidden-pc">
+              <ul class=" py-2 px-5 text-gray-600">
                 <li class="cursor-pointer hover:text-black">PC</li>
                 <li class="cursor-pointer hover:text-black">Linh kiện</li>
                 <li class="cursor-pointer hover:text-black">Màn hình</li>
@@ -744,197 +479,127 @@
             </form>
           </li>
           <li class="leading-9 relative show-phone">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-headphones-simple"></i>
               TAI NGHE
             </a>
             <!--form tai nghe  -->
-            <form
-              class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-589px] right-0 hidden-phone"
-            >
-              <div class="w-[465px] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  CÁC SẢN PHẨM PHỤ KIỆN
-                </div>
+            <form class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-589px] right-0 hidden-phone">
+              <div class="w-[465px] p-3 ">
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">CÁC SẢN PHẨM PHỤ KIỆN</div>
                 <div class="w-[465px] grid grid-cols-3">
                   <ul class="text-[13px] leading-5">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Router</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Router</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Thẻ nhớ</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Thẻ nhớ</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Loa</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Loa</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Tai nghe</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Tai nghe</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Balo - Túi xách</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Balo - Túi xách</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Phụ kiện khẩu trang lọc khí</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Phụ kiện khẩu trang lọc khí</a>
                     </li>
                   </ul>
                   <ul class="text-[13px] leading-5">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >bao da ốp lưng</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">bao da ốp lưng</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Phụ kiện Apple</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Phụ kiện Apple</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >USB - Ổ cứng</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">USB - Ổ cứng</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Chuột</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Chuột</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >TV - BOX</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">TV - BOX</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Bàn phím</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Bàn phím</a>
                     </li>
                   </ul>
                   <ul class="text-[13px] leading-5">
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Sạc dự phòng</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Sạc dự phòng</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Miến dán màn hình</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Miến dán màn hình</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Sạc cáp</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Sạc cáp</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Bàn ghế gaming</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Bàn ghế gaming</a>
                     </li>
                     <li class="h-7">
-                      <a class="text-gray-600 cursor-pointer hover:text-black"
-                        >Phụ kiện khác</a
-                      >
+                      <a class="text-gray-600 cursor-pointer hover:text-black">Phụ kiện khác</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="w-[409px] border-l border-r border-[#ccc] p-3">
-                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
-                  BÁN CHẠY NHẤT
-                </div>
+                <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">BÁN CHẠY NHẤT</div>
                 <div class="flex mb-3">
-                  <img src="../assets/loa.webp" alt="" class="w-20 h-20 mr-2" />
+                  <img src="../assets/loa.webp" alt="" class="w-20 h-20 mr-2">
                   <div class="leading-5">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >Combo Loa Bluetooth Karaoke kèm Mic không dây ivalue
-                      F12-65N</a
-                    >
-                    <p class="text-[#d0021b] leading-5 font-bold">
-                      1.990.000 ₫
-                    </p>
+                    <a href="" class="text-gray-900 hover:text-black">Combo Loa Bluetooth Karaoke kèm Mic không dây
+                      ivalue
+                      F12-65N</a>
+                    <p class="text-[#d0021b] leading-5 font-bold">1.990.000 ₫</p>
                   </div>
                 </div>
                 <div class="flex">
-                  <img src="../assets/sac.webp" alt="" class="w-20 h-20 mr-2" />
+                  <img src="../assets/sac.webp" alt="" class="w-20 h-20 mr-2">
                   <div class="leading-5">
-                    <a href="" class="text-gray-900 hover:text-black"
-                      >Pin sạc dự phòng UmeTravel 10000mAh TRIP10000 Quick
-                      Charge</a
-                    >
+                    <a href="" class="text-gray-900 hover:text-black">Pin sạc dự phòng UmeTravel 10000mAh TRIP10000
+                      Quick
+                      Charge</a>
                     <p class="text-[#d0021b] leading-5 font-bold">690.000 ₫</p>
                   </div>
                 </div>
               </div>
               <div class="w-[324px] p-3 mt-5">
-                <img
-                  src="../assets/phu-kien.webp"
-                  alt=""
-                  class="w-[248px] h-[248px] mx-auto"
-                />
+                <img src="../assets/phu-kien.webp" alt="" class="w-[248px] h-[248px] mx-auto">
               </div>
             </form>
           </li>
           <li class="leading-9">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-arrow-rotate-right"></i>
               MÁY CŨ GIÁ RẼ
             </a>
           </li>
           <li class="leading-9">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-house-flag"></i>
               HÀNG DA DỤNG
             </a>
           </li>
           <li class="leading-9">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-sim-card"></i>
               SIM & THẺ
             </a>
           </li>
           <li class="leading-9 relative show-promo">
-            <a
-              href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
-            >
+            <a href="" class="text-sm text-white cursor-pointer hover:text-gray-400">
               <i class="fa-solid fa-bahai"></i>
               KHUYẾN MÃI
             </a>
-            <form
-              action=""
-              class="w-[200px] bg-white shadow-lg absolute left-0 top-9 hidden-promo"
-            >
-              <ul class="py-2 px-5 text-gray-600">
-                <li class="cursor-pointer hover:text-black">
-                  Thông tin trao thưởng
-                </li>
-                <li class="cursor-pointer hover:text-black">
-                  Tất cả khuyến mãi
-                </li>
+            <form action="" class="w-[200px] bg-white shadow-lg absolute left-0 top-9 hidden-promo">
+              <ul class=" py-2 px-5 text-gray-600">
+                <li class="cursor-pointer hover:text-black">Thông tin trao thưởng</li>
+                <li class="cursor-pointer hover:text-black">Tất cả khuyến mãi</li>
               </ul>
             </form>
           </li>
@@ -943,41 +608,27 @@
     </div>
   </div>
   <!-- container -->
-  <div class="contai w-full -z-50 pb-96 bg-[#f4f4f4]">
-    <img src="../assets/Desk_top-head.webp" alt="" class="" />
+  <div class="contai w-full -z-50 h-full pb-96">
+    <img src="../assets/Desk_top-head.webp" alt="" class="">
     <!-- form slider -->
-    <form class="w-[1200px] bg-white flex shadow-md mx-auto rounded-lg mb-8">
+    <form class="w-[1200px] bg-white flex shadow-md mx-auto rounded-lg">
       <div class="w-[800px]">
         <div class="">
-          <img
-            src="../assets/shider1.webp"
-            alt=""
-            class="w-[800px] h-[300px] rounded p-1"
-          />
+          <img src="../assets/shider1.webp" alt="" class="w-[800px] h-[300px] rounded p-1">
           <ul class="grid grid-cols-5 text-center px-2">
-            <li
-              class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600"
-            >
+            <li class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600">
               Sở hữu Reno8 Series chỉ từ 1.8 triệu
             </li>
-            <li
-              class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600"
-            >
+            <li class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600">
               Mở bán Galaxy Z mới - Quà đến 5.5 triệu
             </li>
-            <li
-              class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600"
-            >
+            <li class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600">
               iPhone 13 Pro Max chỉ từ 27.49 triệu
             </li>
-            <li
-              class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600"
-            >
+            <li class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600">
               Redmi 10 tặng sạc 10.000mAh
             </li>
-            <li
-              class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600"
-            >
+            <li class="p-1 cursor-pointer hover:font-bold hover:border-b-2 border-red-600">
               Quạt điều hoà chỉ từ 1.790.000đ
             </li>
           </ul>
@@ -985,458 +636,53 @@
       </div>
       <div class="w-[400px]">
         <div class="">
-          <img
-            src="../assets/dong-ho.webp"
-            alt=""
-            class="w-[400px] h-[100px] p-1"
-          />
-          <img
-            src="../assets/phu-2.webp"
-            alt=""
-            class="w-[400px] h-[100px] px-1"
-          />
+          <img src="../assets/dong-ho.webp" alt="" class="w-[400px] h-[100px] p-1">
+          <img src="../assets/phu-2.webp" alt="" class="w-[400px] h-[100px] px-1">
           <div class="flex justify-between pt-2 px-2">
             <p class="text-gray-500 font-bold">Thông tin nổi bật</p>
-            <a
-              href=""
-              class="hover:text-gray-600 hover:border-b-2 border-gray-600 h-[22px]"
-              >Xem tất cả</a
-            >
+            <a href="" class="hover:text-gray-600 hover:border-b-2 border-gray-600 h-[22px]">Xem tất cả</a>
           </div>
           <div class="w-[400px]">
             <ul class="flex cursor-pointer relative show-voucher">
               <li class="p-[2px] rounded border border-[#ccc]">
-                <img
-                  src="../assets/FPT-0.webp"
-                  alt=""
-                  class="w-[70px] h-10 rounded"
-                />
+                <img src="../assets/FPT-0.webp" alt="" class="w-[70px] h-10 rounded ">
               </li>
-              <li class="text-sm font-bold pl-2">Nhận ngay Voucher 50.000Đ</li>
-              <li
-                class="p-1 rounded border border-[#ccc] absolute top-[-62px] left-[-260px] hidden-voucher"
-              >
-                <img
-                  src="../assets/FPT_3.webp"
-                  alt=""
-                  class="w-[243px] h-[160px] rounded"
-                />
-                <i
-                  class="fa-solid fa-caret-right text-xl text-gray-300 absolute right-[-9px] top-[74px]"
-                ></i>
+              <li class="text-sm font-bold pl-2">
+                Nhận ngay Voucher 50.000Đ
+              </li>
+              <li class="p-1 rounded border border-[#ccc] absolute top-[-58px] left-[-251px] hidden-voucher">
+                <img src="../assets/FPT_3.webp" alt="" class="w-[243px] h-[160px] rounded ">
               </li>
             </ul>
             <ul class="flex cursor-pointer relative show-dt">
               <li class="p-[2px] rounded border border-[#ccc]">
-                <img
-                  src="../assets/OPPO A95.webp"
-                  alt=""
-                  class="w-[70px] h-10 rounded"
-                />
+                <img src="../assets/OPPO A95.webp" alt="" class="w-[70px] h-10 rounded ">
               </li>
               <li class="text-sm font-bold pl-2">
                 OPPO A95 giá sốc chỉ 5.990.000Đ
               </li>
-              <li
-                class="p-1 rounded border border-[#ccc] absolute top-[-60px] left-[-260px] hidden-dt"
-              >
-                <img
-                  src="../assets/A95_2.webp"
-                  alt=""
-                  class="w-[243px] h-[160px] rounded"
-                />
-                <i
-                  class="fa-solid fa-caret-right text-xl text-gray-300 absolute right-[-9px] top-[74px]"
-                ></i>
+              <li class="p-1 rounded border border-[#ccc] absolute top-[-60px] left-[-251px] hidden-dt">
+                <img src="../assets/A95_2.webp" alt="" class="w-[243px] h-[160px] rounded ">
               </li>
             </ul>
           </div>
         </div>
       </div>
     </form>
-    <!-- form sản phẩm -->
-    <form
-      action=""
-      class="w-[1200px] h-[321px] bg-white border border-[#ccc] mx-auto rounded-md truncate mb-14"
-    >
-      <ul class="grid grid-cols-6">
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-mobile.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Điện thoại</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-laptop.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Laptop</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-pc.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">PC - Lắp ráp</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-tablet.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Máy tính bảng</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-smart.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Thiết bị thông minh</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-houseware.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Gia dụng</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-apple.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Apple</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-samsung.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Samsung</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-smartwatch.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Đồng hồ thông minh</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-accessories.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Phụ kiện</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-screen.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Màn hình</p>
-        </li>
-        <li
-          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl"
-        >
-          <div
-            class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full"
-          >
-            <img src="../assets/img-sp/icon-tcdm.webp" alt="" class="" />
-          </div>
-          <p class="pt-2 text-black">Máy cũ</p>
-        </li>
-      </ul>
-    </form>
-    <!-- form gold time -->
-    <form
-      action=""
-      class="w-[1200px] bg-white mx-auto border-2 border-red-500 rounded-md"
-    >
-      <ul class="grid grid-cols-4 m-0 relative">
-        <li class="cursor-pointer">
-          <div
-            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white"
-          >
-            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
-              29/08
-              <div
-                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white"
-              >
-                12:00 - 14:00
-              </div>
-            </div>
-            <p class="mb-0 text-base">Đã kết thúc</p>
-          </div>
-          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
-            <div class="relative pt-2 hover:scale-[101%]">
-              <img
-                src="../assets/img-gold-time/product-border.webp"
-                alt=""
-                class="mx-auto"
-              />
-              <img
-                src="../assets/img-gold-time/smartwatch.webp"
-                alt=""
-                class="w-[172px] h-[172px] absolute top-8 left-14"
-              />
-              <span
-                class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center"
-                >Giảm 60%</span
-              >
-            </div>
-            <div
-              class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]"
-            >
-              Đồng hồ Casio MW-600F-2AVDF
-            </div>
-            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
-              326.000 ₫
-              <p
-                class="line-through text-sm text-[#ccc] font-light leading-7 ml-2"
-              >
-                825.000 ₫
-              </p>
-            </div>
-            <div
-              class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto"
-            >
-              Đã kết thúc
-            </div>
-          </div>
-        </li>
-        <li class="cursor-pointer">
-          <div
-            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-red-500 text-white"
-          >
-            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
-              30/08
-              <div
-                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white"
-              >
-                12:00 - 14:00
-              </div>
-            </div>
-            <p class="mb-0 text-base">Đã kết thúc</p>
-          </div>
-          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
-            <div class="relative pt-2 hover:scale-[101%]">
-              <img
-                src="../assets/img-gold-time/product-border.webp"
-                alt=""
-                class="mx-auto"
-              />
-              <img
-                src="../assets/img-gold-time/OP-IPHONE.webp"
-                alt=""
-                class="w-[172px] h-[172px] absolute top-8 left-14"
-              />
-              <span
-                class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center"
-                >Giảm 60%</span
-              >
-            </div>
-            <div
-              class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]"
-            >
-              Ốp lưng iPhone 13 Pro Max
-            </div>
-            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
-              345.000 ₫
-              <p
-                class="line-through text-sm text-[#ccc] font-light leading-7 ml-2"
-              >
-                690.000 ₫
-              </p>
-            </div>
-            <div
-              class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto"
-            >
-              Đã kết thúc
-            </div>
-          </div>
-        </li>
-        <li class="cursor-pointer">
-          <div
-            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white"
-          >
-            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
-              31/08
-              <div
-                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white"
-              >
-                12:00 - 14:00
-              </div>
-            </div>
-            <p class="mb-0 text-base">Đã kết thúc</p>
-          </div>
-          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
-            <div class="relative pt-2 hover:scale-[101%]">
-              <img
-                src="../assets/img-gold-time/product-border.webp"
-                alt=""
-                class="mx-auto"
-              />
-              <img
-                src="../assets/img-gold-time/may-loc-khong-khi.webp"
-                alt=""
-                class="w-[172px] h-[172px] absolute top-8 left-14"
-              />
-              <span
-                class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center"
-                >Giảm 60%</span
-              >
-            </div>
-            <div
-              class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]"
-            >
-              Máy lọc không khí Kangaroo
-            </div>
-            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
-              1.900.000 ₫
-              <p
-                class="line-through text-sm text-[#ccc] font-light leading-7 ml-2"
-              >
-                2.350.000 ₫
-              </p>
-            </div>
-            <div
-              class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto"
-            >
-              Đã kết thúc
-            </div>
-          </div>
-        </li>
-        <li class="cursor-pointer">
-          <div
-            class="h-[127px] flex flex-col justify-center items-center w-ful bg-[#444b52] text-white"
-          >
-            <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
-              1/09
-              <div
-                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white"
-              >
-                12:00 - 14:00
-              </div>
-            </div>
-            <p class="mb-0 text-base">Đã kết thúc</p>
-          </div>
-          <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
-            <div class="relative pt-2 hover:scale-[101%]">
-              <img
-                src="../assets/img-gold-time/product-border.webp"
-                alt=""
-                class="mx-auto"
-              />
-              <img
-                src="../assets/img-gold-time/lenovo.webp"
-                alt=""
-                class="w-[172px] h-[172px] absolute top-8 left-14"
-              />
-              <span
-                class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center"
-                >Giảm 60%</span
-              >
-            </div>
-            <div
-              class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]"
-            >
-              Lenovo Ideapad Slim 3 i3 1115G4
-            </div>
-            <div class="flex h-8 ml-5 text-lg font-medium text-red-700">
-              8.495.000 ₫
-              <p
-                class="line-through text-sm text-[#ccc] font-light leading-7 ml-2"
-              >
-                12.825.000 ₫
-              </p>
-            </div>
-            <div
-              class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto"
-            >
-              Đã kết thúc
-            </div>
-          </div>
-        </li>
-        <li
-          class="flex justify-center items-center rounded-full w-[520px] h-[56px] bg-yellow-200 absolute top-[-28px] left-[340px]"
-        >
-          <h3 class="text-4xl font-bold text-[#cb1c22] leading-[56px] m-0">
-            Giờ vàng giá sốc
-          </h3>
-          <p
-            class="text-xl mb-0 ml-4 px-2 border-l-2 border-[#ccc] text-[#0664f9] font-medium cursor-pointer"
-          >
-            Xem thể lệ
-            <i class="fa-solid fa-caret-right mt-1"></i>
-          </p>
-        </li>
-      </ul>
-    </form>
-    <img
-      src="../assets/img-container/F-H7_1200x100.webp"
-      alt=""
-      class="mx-auto my-7 rounded-md"
-    />
-    <!-- form hot sale -->
-    <form
-      action=""
-      class="bg-white font-bold py-4 rounded-md shadow-xl mx-auto w-[1200px]"
-    >
-      <div class="text-[22px] text-[#cd1817] p-3">
-        <i class="fa-brands fa-hotjar"></i>
-        KHUYẾN MÃI HOT
-      </div>
-      <ul>
-        <li class=""></li>
-      </ul>
-    </form>
+
   </div>
 </template>
 <script>
-export default {};
-</script>
+export default {
+
+}
+
 <style scoped>
-.contai {
+  .contai {
   background-image: url("../assets/Desk_Header_Background.webp");
   background-size: cover;
 }
-
-.show-info:hover > .hidden-info {
+.show-info:hover>.hidden-info {
   display: block;
 }
 
@@ -1444,15 +690,15 @@ export default {};
   display: none;
 }
 
-.show-mobi:hover > .hidden-mobi {
+.show-mobi:hover>.hidden-mobi {
   display: flex;
 }
 
 .hidden-mobi {
-  display: none;
+  display: none
 }
 
-.show-loptop:hover > .hidden-loptop {
+.show-loptop:hover>.hidden-loptop {
   display: flex;
 }
 
@@ -1460,7 +706,7 @@ export default {};
   display: none;
 }
 
-.show-tablet:hover > .hidden-tablet {
+.show-tablet:hover>.hidden-tablet {
   display: flex;
 }
 
@@ -1468,7 +714,7 @@ export default {};
   display: none;
 }
 
-.show-apple:hover > .hidden-apple {
+.show-apple:hover>.hidden-apple {
   display: flex;
 }
 
@@ -1476,7 +722,7 @@ export default {};
   display: none;
 }
 
-.show-pc:hover > .hidden-pc {
+.show-pc:hover>.hidden-pc {
   display: block;
 }
 
@@ -1484,7 +730,7 @@ export default {};
   display: none;
 }
 
-.show-promo:hover > .hidden-promo {
+.show-promo:hover>.hidden-promo {
   display: block;
 }
 
@@ -1492,17 +738,26 @@ export default {};
   display: none;
 }
 
-.show-phone:hover > .hidden-phone {
+.show-phone:hover>.hidden-phone {
   display: flex;
 }
 
 .hidden-phone {
   display: none;
 }
-
-.show-voucher:hover > .hidden-voucher {
+.show-voucher:hover>.hidden-voucher {
   display: block;
 }
+.hidden-voucher {
+  display:none;
+}
+.show-dt:hover>.hidden-dt {
+  display:block;
+}
+.hidden-dt {
+  display:none;
+}
+</style>
 
 .hidden-voucher {
   display: none;
@@ -1512,7 +767,3 @@ export default {};
   display: block;
 }
 
-.hidden-dt {
-  display: none;
-}
-</style>
