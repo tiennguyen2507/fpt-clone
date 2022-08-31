@@ -11,7 +11,7 @@
         <a-form
           layout="vertical"
           class="!mt-10"
-          @finish="login"
+          @finish="login1"
           :model="formData"
         >
           <a-form-item
@@ -36,9 +36,11 @@
               placeholder="123456"
             />
           </a-form-item>
-          <template v-if="alert1">
-            <div class="rounded border-2 border-red-200 p-1 bg-red-300 mb-5">
-              {{ alert1 }}
+          <template v-if="notification">
+            <div
+              class="rounded border-2 border-red-200 p-1 bg-red-300 mb-5 text-white"
+            >
+              {{ notification }}
             </div>
           </template>
 
@@ -51,7 +53,8 @@
   </div>
 </template>
 <script>
-import { listUser } from "@/mock/auth.js";
+import { mapMutations } from "vuex";
+import { login } from "@/auth";
 export default {
   data() {
     return {
@@ -59,30 +62,25 @@ export default {
         phone: "",
         password: "",
       },
-      alert1: "",
+      notification: "",
       loading: false,
     };
   },
   methods: {
-    login() {
+    ...mapMutations(["setUser"]),
+    login1() {
       this.loading = true;
       setTimeout(() => {
-        const user = listUser.find((user) => {
-          if (user.phone !== this.formData.phone) {
-            this.alert1 = "SDT không đúng hoặc chưa đăng kí!";
-            return false;
-          }
-          if (user.password !== this.formData.password) {
-            this.alert1 = "password không đúng!";
-            return false;
-          }
-          this.alert1 = "";
-          this.$router.push("/");
-          return true;
-        });
-        console.log(user);
+        this.notification = "";
+        const isLogin = login(this.formData);
+        if (!isLogin) {
+          this.notification = "Tên đăng nhập hoặc mật khẩu không chính xác!";
+        } else {
+          this.$router.push("/product");
+        }
+
         this.loading = false;
-      }, 2000);
+      }, 1000);
     },
   },
 };

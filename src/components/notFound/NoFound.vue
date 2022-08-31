@@ -1,25 +1,20 @@
 <template>
   <div class="h-screen flex items-center justify-center">
-    <Result
+    <a-result
       status="403"
       title="403"
       sub-title="Sorry, you are not authorized to access this page."
     >
       <template #extra>
-        <Button type="primary" @click="backHome" :loading="loading"
-          >Back Home</Button
+        <a-button type="primary" @click="backHome" :loading="loading"
+          >Back Home</a-button
         >
       </template>
-    </Result>
+    </a-result>
   </div>
 </template>
 <script>
-import { Result, Button } from "ant-design-vue";
 export default {
-  components: {
-    Result,
-    Button,
-  },
   data() {
     return {
       loading: false,
