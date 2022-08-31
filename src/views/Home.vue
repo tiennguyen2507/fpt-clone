@@ -650,8 +650,9 @@
               <li class="text-sm font-bold pl-2">
                 Nhận ngay Voucher 50.000Đ
               </li>
-              <li class="p-1 rounded border border-[#ccc] absolute top-[-58px] left-[-251px] hidden-voucher">
+              <li class="p-1 rounded border border-[#ccc] absolute top-[-62px] left-[-260px] hidden-voucher">
                 <img src="../assets/FPT_3.webp" alt="" class="w-[243px] h-[160px] rounded ">
+                <i class="fa-solid fa-caret-right text-xl text-gray-300 absolute right-[-9px] top-[74px]"></i>
               </li>
             </ul>
             <ul class="flex cursor-pointer relative show-dt">
@@ -661,84 +662,97 @@
               <li class="text-sm font-bold pl-2">
                 OPPO A95 giá sốc chỉ 5.990.000Đ
               </li>
-              <li class="p-1 rounded border border-[#ccc] absolute top-[-60px] left-[-251px] hidden-dt">
+              <li class="p-1 rounded border border-[#ccc] absolute top-[-60px] left-[-260px] hidden-dt">
                 <img src="../assets/A95_2.webp" alt="" class="w-[243px] h-[160px] rounded ">
+                <i class="fa-solid fa-caret-right text-xl text-gray-300 absolute right-[-9px] top-[74px]"></i>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </form>
-<!-- form sản phẩm -->
+    <!-- form sản phẩm -->
     <form action="" class="w-[1200px] h-[321px]  bg-white border border-[#ccc] mx-auto rounded-md truncate mb-14">
       <ul class="grid grid-cols-6">
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-mobile.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Điện thoại</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-laptop.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Laptop</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-pc.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">PC - Lắp ráp</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-tablet.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Máy tính bảng</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-smart.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Thiết bị thông minh</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-houseware.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Gia dụng</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-apple.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Apple</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-samsung.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Samsung</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-smartwatch.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Đồng hồ thông minh</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-accessories.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Phụ kiện</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-screen.webp" alt="" class="">
           </div>
           <p class="pt-2 text-black">Màn hình</p>
         </li>
-        <li class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
+        <li
+          class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl">
           <div class="w-[95px] h-[95px] bg-[#f4f4f4] inline-flex items-center justify-center rounded-full">
             <img src="../assets/img-sp/icon-tcdm.webp" alt="" class="">
           </div>
@@ -749,11 +763,13 @@
     <!-- form gold time -->
     <form action="" class="w-[1200px] bg-white mx-auto border-2 border-red-500 rounded-md">
       <ul class="grid grid-cols-4 m-0 relative">
-        <li class="">
-          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+        <li class="cursor-pointer">
+          <div
+            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
             <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
               29/08
-              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+              <div
+                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
                 12:00 - 14:00
               </div>
             </div>
@@ -762,8 +778,10 @@
           <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
             <div class="relative pt-2 hover:scale-[101%]">
               <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
-              <img src="../assets/img-gold-time/smartwatch.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
-              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+              <img src="../assets/img-gold-time/smartwatch.webp" alt=""
+                class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm
+                60%</span>
             </div>
             <div class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
               Đồng hồ Casio MW-600F-2AVDF
@@ -775,11 +793,13 @@
             <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
           </div>
         </li>
-        <li class="">
-          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-red-500 text-white">
+        <li class="cursor-pointer">
+          <div
+            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-red-500 text-white">
             <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
               30/08
-              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+              <div
+                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
                 12:00 - 14:00
               </div>
             </div>
@@ -788,8 +808,10 @@
           <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
             <div class="relative pt-2 hover:scale-[101%]">
               <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
-              <img src="../assets/img-gold-time/OP-IPHONE.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
-              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+              <img src="../assets/img-gold-time/OP-IPHONE.webp" alt=""
+                class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm
+                60%</span>
             </div>
             <div class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
               Ốp lưng iPhone 13 Pro Max
@@ -801,11 +823,13 @@
             <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
           </div>
         </li>
-        <li class="">
-          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+        <li class="cursor-pointer">
+          <div
+            class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
             <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
               31/08
-              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+              <div
+                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
                 12:00 - 14:00
               </div>
             </div>
@@ -814,8 +838,10 @@
           <div class="hover:shadow-xl border-[#ccc] pb-3 hover:-translate-y-1">
             <div class="relative pt-2 hover:scale-[101%]">
               <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
-              <img src="../assets/img-gold-time/may-loc-khong-khi.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
-              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+              <img src="../assets/img-gold-time/may-loc-khong-khi.webp" alt=""
+                class="w-[172px] h-[172px] absolute top-8 left-14">
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm
+                60%</span>
             </div>
             <div class="ml-5 font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
               Máy lọc không khí Kangaroo
@@ -827,11 +853,13 @@
             <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
           </div>
         </li>
-        <li class="">
-          <div class="h-[127px] flex flex-col justify-center items-center w-full border-r-2 border-white bg-[#444b52] text-white">
+        <li class="cursor-pointer">
+          <div
+            class="h-[127px] flex flex-col justify-center items-center w-ful bg-[#444b52] text-white">
             <div class="flex items-center pt-4 mb-2 text-2xl font-medium">
               1/09
-              <div class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
+              <div
+                class="text-black text-base ml-2 font-bold w-[125px] h-[26px] leading-[26px] text-center rounded-full bg-white">
                 12:00 - 14:00
               </div>
             </div>
@@ -841,7 +869,8 @@
             <div class="relative pt-2 hover:scale-[101%]">
               <img src="../assets/img-gold-time/product-border.webp" alt="" class="mx-auto">
               <img src="../assets/img-gold-time/lenovo.webp" alt="" class="w-[172px] h-[172px] absolute top-8 left-14">
-              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm 60%</span>
+              <span class="w-[76px] h-6 bg-red-700 absolute left-[14px] top-40 rounded-r-md text-white text-center">Giảm
+                60%</span>
             </div>
             <div class="text-center font-bold text-base pt-3 hover:text-blue-700 text-[#474c51]">
               Lenovo Ideapad Slim 3 i3 1115G4
@@ -853,7 +882,8 @@
             <div class="w-[275px] h-5 bg-red-700 rounded-full text-center mx-auto">Đã kết thúc</div>
           </div>
         </li>
-        <li class="flex justify-center items-center rounded-full w-[520px] h-[56px] bg-yellow-200 absolute top-[-28px] left-[340px]">
+        <li
+          class="flex justify-center items-center rounded-full w-[520px] h-[56px] bg-yellow-200 absolute top-[-28px] left-[340px]">
           <h3 class="text-4xl font-bold text-[#cb1c22] leading-[56px] m-0">Giờ vàng giá sốc</h3>
           <p class="text-xl mb-0 ml-4 px-2 border-l-2 border-[#ccc] text-[#0664f9] font-medium cursor-pointer">
             Xem thể lệ
@@ -862,12 +892,19 @@
         </li>
       </ul>
     </form>
+    <img src="../assets/img-container/F-H7_1200x100.webp" alt="" class="mx-auto my-7 rounded-md">
+    <!-- form hot sale -->
+    <form action="" class="bg-red-500 w-[1200px] ">
+      <div class="">
+
+      </div>
+    </form>
   </div>
 </template>
 <script>
-  export default {
+export default {
 
-  }
+}
 </script>
 <style scoped>
 .contai {
