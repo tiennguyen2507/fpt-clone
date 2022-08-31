@@ -887,7 +887,7 @@
     <!-- form hot sale -->
     <form action="" class="bg-red-500 w-[1200px] ">
       <div class="">
-
+        git
       </div>
     </form>
   </div>
