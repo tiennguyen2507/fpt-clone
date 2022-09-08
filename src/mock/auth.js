@@ -6,5 +6,6 @@ export const listUser = [
     address: "Thăng Bình,Quảng Nam",
     password: "123456",
     token: "fake token",
+    hihi: "hihi",
   },
 ];

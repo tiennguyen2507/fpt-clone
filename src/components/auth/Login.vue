@@ -76,7 +76,7 @@ export default {
         if (!isLogin) {
           this.notification = "Tên đăng nhập hoặc mật khẩu không chính xác!";
         } else {
-          this.$router.push("/product");
+          this.$router.push("/");
         }
 
         this.loading = false;
