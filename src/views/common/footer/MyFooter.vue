@@ -1,5 +1,5 @@
 <template lang="">
-  <div>
+  <div class="m-10">
     <div class="flex justify-between w-[1200px] mx-auto">
       <ul>
         <li class="leading-7">
@@ -173,3 +173,4 @@
     </div>
   </div>
 </template>
+z

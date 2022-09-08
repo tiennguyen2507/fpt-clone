@@ -1,4 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { getLocalToken } from "../ultil/localToken";
+import { permission } from "../auth";
+import store from "../store";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -25,3 +28,15 @@ const router = createRouter({
   strict: true,
 });
 export default router;
+
+router.beforeEach((to, from, next) => {
+  const tokenLocal = getLocalToken();
+  if (tokenLocal) {
+    if (!store.state.isPermission) {
+      permission();
+      next();
+      return;
+    }
+  }
+  next();
+});

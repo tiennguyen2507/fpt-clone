@@ -19,7 +19,8 @@
         <img
           src="@/assets/logofpt.png"
           alt=""
-          class="w-[151] h-10 bg-[#cd1818] rounded"
+          class="w-[151] h-10 bg-[#cd1818] rounded cursor-pointer"
+          @click="$router.push('/')"
         />
         <div class="flex">
           <input
@@ -42,37 +43,27 @@
             <ul
               class="w-[200px] bg-white text-gray-600 text-start px-3 py-2 shadow-lg absolute z-50 top-[52px] left-0 hidden-info"
             >
-              <li class="hover:text-black w-40 h-8 cursor-pointer">Tin mới</li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                khuyến mãi
+              <li
+                class="hover:text-black w-40 h-8 cursor-pointer"
+                v-for="(item, index) in goodInfor"
+                :key="index"
+              >
+                {{ item.title }}
               </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Thủ thuật
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                For Gamers
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Video hot
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                Đánh giá - tư vấn
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">
-                App & game
-              </li>
-              <li class="hover:text-black w-40 h-8 cursor-pointer">Sự kiện</li>
             </ul>
           </li>
           <li class="text-center h-[63px] mt-7 cursor-pointer">
             <i class="fa-solid fa-file-invoice-dollar text-xl"></i>
             <p class="mt-1 mb-0">Thanh toán & tiện ích</p>
           </li>
-          <li class="text-center h-[63px] mt-7">
+          <li
+            class="text-center h-[63px] mt-7 cursor-pointer"
+            @click="$router.push('/login')"
+          >
             <i class="fa-solid fa-circle-user text-xl"></i>
             <p class="mt-1 mb-0">Tài khoản của tôi</p>
           </li>
-          <li class="text-center h-[63px] mt-7">
+          <li class="text-center h-[63px] mt-7 cursor-pointer">
             <i class="fa-solid fa-cart-shopping text-xl"></i>
             <p class="mt-1 mb-0">Giỏ hàng</p>
           </li>
@@ -82,7 +73,14 @@
   </div>
 </template>
 <script>
-export default {};
+import { goodInfor } from "./constant";
+export default {
+  computed: {
+    goodInfor() {
+      return goodInfor;
+    },
+  },
+};
 </script>
 <style scoped>
 .show-info:hover > .hidden-info {
