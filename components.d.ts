@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     AForm: typeof import('ant-design-vue/es')['Form']
     AFormItem: typeof import('ant-design-vue/es')['FormItem']
     AInput: typeof import('ant-design-vue/es')['Input']
+    AResult: typeof import('ant-design-vue/es')['Result']
     ASpin: typeof import('ant-design-vue/es')['Spin']
     Login: typeof import('./src/components/auth/Login.vue')['default']
     NoFound: typeof import('./src/components/notFound/NoFound.vue')['default']
