@@ -162,7 +162,7 @@
               <i class="fa-solid fa-hard-drive text-gray-400 mr-2"></i>
               256 GB
             </div>
-            <p class="text-blue-500 hover:border-b border-blue-500 inline-block cursor-pointer">
+            <p class="text-blue-500 hover:border-b border-blue-500 inline-block leading-4 cursor-pointer">
               Xem chi tiết thông số kỹ thuật
             </p>
           </div>
@@ -1022,6 +1022,77 @@
             </li>
           </ul>
         </div>
+        <form action="" class="w-[1200px] rounded-md mx-auto px-4 py-2  my-6 shado">
+          <h2 
+            class="text-2xl font-medium flex items-center">
+            Đánh giá & Nhận xét iPad Gen 9 2021 10.2 inch WiFi
+            <span class="text-xs p-[2px] rounded bg-red-600 text-white ml-1">355</span>
+          </h2>
+          <div class="flex justify-between items-center mb-3">
+            <div class="text-center w-[320px]">
+              <p class="text-base mb-3 text-gray-800">Đánh Giá Trung Bình</p>
+              <p class="text-[44px] font-medium text-red-600 mb-5 leading-10">5/5</p>
+              <p class="text-xs">⭐ ⭐ ⭐ ⭐ ⭐</p>
+              <p class="mb-0 text-gray-500">178 đánh giá & 177 nhận xét</p>
+            </div>
+            <div class="text-center w-[320px]">
+              <p class="text-gray-600">Bạn đã dùng sản phẩm này?</p>
+              <div class="">
+                <p 
+                  class="bg-red-700 text-white w-[163px] mx-auto px-2 py-2 rounded cursor-pointer hover:opacity-80">
+                    Gửi đánh giá của bạn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <input 
+              type="text" 
+              class="border border-gray-300 p-2 my-2 w-[300px] rounded-md"
+              placeholder="name"
+              v-model="comment.name"
+            >
+          </div>
+          
+          <div class="flex justify-center">
+            <input 
+              type="text" 
+              class="border border-gray-300 p-2 w-[500px] rounded-l-md"
+              placeholder="Bình luận"
+              v-model="comment.title"
+            >
+            <button 
+              class="px-3 py-2 bg-red-800 text-white rounded-r-md hover:opacity-80"
+              @click.prevent = "addComment"
+              >
+              Add
+            </button>
+          </div>
+          <ul class="mt-10">
+            <li class="flex"
+                v-for="(item,index) in user" 
+                :key="index">
+              <div class="mr-3 rounded border border-gray-300 w-[70px] h-[70px] p-[2px]">
+                <img 
+                  src="src/assets/img-product/product-page/user.png" 
+                  alt="" 
+                  class=""
+                >
+              </div>
+              <div class=""
+               >
+                <p class="text-lg mb-1 font-semibold">{{item.name}}</p>
+                <p class="text-xs mb-2 text-gray-400">⭐ ⭐ ⭐ ⭐ ⭐ 8 ngày trước</p>
+                <p class="m-0 text-base text-gray-500">Good quality products and very helpful and knowledgeable staff. {{item.title}}</p>
+                <p class="mt-1 cursor-pointer text-blue-600 hover:text-black w-20"
+                @click="this.like = !this.like">
+                  <i class="fa-solid fa-thumbs-up "></i>
+                  thích ({{like ? "0" : "1"}})
+                </p>
+              </div>
+            </li>
+          </ul>
+        </form>
     </div>
     <MyFooter />
   </div>
@@ -1030,6 +1101,7 @@
 import MyFooter from "@/views/common/footer/MyFooter.vue";
 import MyHeader from "@/views/common/header/MyHeader.vue";
 import MyNarBar from "@/views/common/narbar/MyNarBar.vue";
+import axios from 'axios'
 export default {
   components: {
     MyFooter,
@@ -1059,6 +1131,8 @@ export default {
       newText: false,
       more1: true,
       newText1: false,
+      like:true,
+      likei:"",
       listCart: [
         {
           thumb: 'src/assets/img-product/HASP.webp',
@@ -1118,9 +1192,27 @@ export default {
           photos:'src/assets/img-product/product-page/so-sanh-ipad-10-2-2021-vs-galaxy-tab-s7-fe-cover.webp',
           name:'So sánh Apple iPad 10.2 (2021) và Samsung Galaxy Tab S7 FE'
         },
-      ]
+      ],
+      user:[
+        {
+          name:'',title:''
+        }
+      ],
+      comment:{name:'',title:''},
     }
   },
+  mounted () {
+    axios
+      .get('https://jsonplaceholder.typicode.com/users?_limit=5')
+      .then(response => {
+        console.log(response.data)
+        this.user = response.data
+      })
+      .catch(error => {
+        console.log(error)
+        this.errored = true
+      })
+      },
   methods: {
     slider1() {
       this.mobiSlider1 = false,
@@ -1178,6 +1270,26 @@ export default {
     showMore1() {
       this.newText1 = !this.newText1
       this.more1 = !this.more1
+    },
+    addComment () {
+      if(
+        this.comment.name === '' || this.comment.title === '' 
+      ){
+        alert ('Vui lòng nhập đầy đủ dữ liệu!')
+        }else {
+          axios.post('https://jsonplaceholder.typicode.com/users',this.comment)
+          .then(response => {
+          this.user.push(response.data)
+          console.log(response.data)
+          })
+          .catch(error => {
+          console.log(error)
+          this.errored = true
+          })
+          this.comment = {name:'',title:''}   
+        }
+
+
     }
   }
 };

@@ -13,7 +13,7 @@
             </a>
             <!-- form mobile -->
             <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-0 right-0 z-50 bg-white hidden-mobi"
+              class="w-[1200px] flex shado rounded-md absolute top-9 left-0 right-0 z-50 bg-white hidden-mobi"
             >
               <div class="w-[395px] p-3">
                 <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
@@ -210,7 +210,7 @@
             </a>
             <!-- form loptop -->
             <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-[-118px] bg-white right-0 z-50 hidden-loptop"
+              class="w-[1200px] flex shado rounded-md absolute top-9 left-[-118px] bg-white right-0 z-50 hidden-loptop"
             >
               <div class="w-[557px] p-3">
                 <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
@@ -376,7 +376,7 @@
             </a>
             <!--form máy tinh bảng -->
             <form
-              class="w-[1200px] flex shadow-md absolute top-9 left-[-219px] bg-white right-0 z-50 hidden-tablet"
+              class="w-[1200px] flex shado rounded-md absolute top-9 left-[-219px] bg-white right-0 z-50 hidden-tablet"
             >
               <div class="w-[395px] p-3">
                 <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
@@ -512,7 +512,7 @@
             </a>
             <!-- form apple -->
             <form
-              class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-370px] right-0 z-50 hidden-apple"
+              class="w-[1200px] bg-white flex shado rounded-md absolute top-9 left-[-370px] right-0 z-50 hidden-apple"
             >
               <div class="w-[465px] p-3">
                 <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
@@ -651,7 +651,7 @@
             </a>
             <form
               action=""
-              class="w-[200px] bg-white shadow-lg absolute left-0 top-9 z-50 hidden-pc"
+              class="w-[200px] bg-white shado rounded-md absolute left-0 top-9 z-50 hidden-pc"
             >
               <ul class="py-2 px-5 text-gray-600">
                 <li class="cursor-pointer hover:text-black">PC</li>
@@ -671,7 +671,7 @@
             </a>
             <!--form tai nghe  -->
             <form
-              class="w-[1200px] bg-white flex shadow-md absolute top-9 left-[-589px] right-0 z-50 hidden-phone"
+              class="w-[1200px] bg-white flex shado rounded-md absolute top-9 left-[-589px] right-0 z-50 hidden-phone"
             >
               <div class="w-[465px] p-3">
                 <div class="text-[#3d3d3d] pt-2 pb-2 font-bold">
@@ -844,7 +844,7 @@
             </a>
             <form
               action=""
-              class="w-[200px] bg-white shadow-lg absolute left-0 top-9 hidden-promo"
+              class="w-[200px] bg-white shado rounded-md absolute left-0 top-9 hidden-promo"
             >
               <ul class="py-2 px-5 text-gray-600">
                 <li class="cursor-pointer hover:text-black">
