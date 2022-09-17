@@ -8,4 +8,13 @@ export const listUser = [
     token: "fake token",
     hihi: "hihi",
   },
+  {
+    firstName: "Linh",
+    lastName: "Nguyễn",
+    phone: "0823168211",
+    address: "Thăng Bình,Quảng Nam",
+    password: "55555",
+    token: "fake token",
+    hihi: "hihi",
+  },
 ];

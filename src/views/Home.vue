@@ -463,10 +463,12 @@
             Giờ vàng giá sốc
           </h3>
           <p
-            class="text-xl mb-0 ml-4 px-2 border-l-2 border-[#ccc] text-[#0664f9] font-medium cursor-pointer"
+            class="text-xl mb-0 ml-4 px-2 border-l-2 border-[#ccc] text-[#0664f9] font-medium cursor-pointer flex items-center"
           >
-            Xem thể lệ
-            <i class="fa-solid fa-caret-right mt-1"></i>
+          <span class="">
+              Xem thể lệ
+            </span>
+            <caret-right-filled class="" />
           </p>
         </li>
       </ul>
@@ -482,10 +484,8 @@
       class="bg-white rounded-md w-[1200px] mx-auto drop-shadow-md py-4"
     >
       <div class="mb-4 px-4 text-[#cd1817] flex items-center">
-        <i
-          class="fa-solid fa-fire-flame-curved mr-2 text-[22px] font-black"
-        ></i>
-        <h3 class="mb-0 text-[#cd1817] text-[22px] font-black">
+        <fire-filled class="!text-2xl !mb-1 !mr-2"/>
+        <h3 class="mb-0 text-[#cd1817] text-2xl font-black">
           KHUYẾN MÃI HOT
         </h3>
       </div>
@@ -828,10 +828,8 @@
       class="bg-white rounded-md w-[1200px] mx-auto drop-shadow-md py-4 mb-4"
     >
       <div class="mb-4 px-4 flex items-center">
-        <i
-          class="fa-solid fa-mobile-screen-button mr-2 text-[22px] text-pink-700 font-black"
-        ></i>
-        <h3 class="mb-0 text-[22px] text-pink-700 font-black">
+        <mobile-outlined class="!mr-2 !text-xl !mb-1 !text-pink-700"/>
+        <h3 class="mb-0 text-2xl text-pink-700 font-bold">
           ĐIỆN THOẠI NỔI BẬT
         </h3>
       </div>
@@ -1756,7 +1754,7 @@
       class="bg-white rounded-md w-[1200px] mx-auto drop-shadow-md py-4 mb-4"
     >
       <div class="mb-4 px-4 text-[#cd1817] flex items-center">
-        <i class="fa-regular fa-star mr-2 text-[22px] font-black"></i>
+        <star-outlined class="!text-[#cd1817] !mr-2 !mb-2 !text-2xl"/>
         <h3 class="mb-0 text-[#cd1817] text-[22px] font-black">
           GỢI Ý HÔM NAY
         </h3>
@@ -3001,9 +2999,7 @@
       class="bg-white rounded-md w-[1200px] mx-auto drop-shadow-md py-4 mb-4"
     >
       <div class="mb-4 px-4 flex items-center">
-        <i
-          class="fa-solid fa-laptop mr-2 text-[22px] text-pink-700 font-black"
-        ></i>
+        <laptop-outlined class="!text-pink-700 !text-2xl !mr-2 !mb-2"/>
         <h3 class="mb-0 text-[22px] text-pink-700 font-black">
           LAPTOP BÁN CHẠY
         </h3>
@@ -3321,9 +3317,7 @@
       class="bg-white rounded-md w-[1200px] mx-auto drop-shadow-md py-4 mb-4"
     >
       <div class="mb-4 px-4 flex items-center">
-        <i
-          class="fa-solid fa-tablet-screen-button mr-2 text-[22px] text-pink-700 font-black"
-        ></i>
+        <tablet-outlined class="!text-pink-700 !text-2xl !mr-2 !mb-2"/>
         <h3 class="mb-0 text-[22px] text-pink-700 font-black">
           TABLET BÁN CHẠY
         </h3>
@@ -3743,97 +3737,97 @@
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-medal text-[45px]"></i>
+        <crown-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Phụ kiện nổi bật</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-mobile-button text-[45px]"></i>
+        <mobile-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Bao da ốp lưng</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-battery-half text-[45px]"></i>
+        <thunderbolt-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Sạc dự phòng</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-sd-card text-[45px]"></i>
+        <folder-add-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Thẻ nhớ</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-print text-[45px]"></i>
+        <printer-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Mực in</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-brands fa-apple text-[45px]"></i>
+        <apple-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Phụ kiện Apple</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-mobile-screen-button text-[45px]"></i>
+        <shake-outlined class="!text-[45px]"/>
           <p class="pt-2 text-black">Miếng dán màn hình</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-headphones-simple text-[45px]"></i>
+        <customer-service-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Tai nghe</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-volume-high text-[45px]"></i>
+        <notification-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Loa</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-hard-drive text-[45px]"></i>
+        <usb-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">USB-Ổ cứng</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-charging-station text-[45px]"></i>
+        <api-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Sạc cáp</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-computer-mouse text-[45px]"></i>
+        <gitlab-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Chuột</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-regular fa-keyboard text-[45px]"></i>
+        <calculator-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Bàn phím</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-brands fa-shopify text-[45px]"></i>
+        <shopping-filled class="!text-[45px]"/>
           <p class="pt-2 text-black">Balo-Túi xách</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-tv text-[45px]"></i>
+        <desktop-outlined class="!text-[45px]"/>
           <p class="pt-2 text-black">TV-BOX</p>
         </li>
         <li
           class="p-[15px] border border-[#f4f4f4] cursor-pointer flex flex-col items-center justify-center hover:shadow-xl text-[#777777]"
         >
-          <i class="fa-solid fa-diagram-successor text-[45px]"></i>
+        <merge-cells-outlined class="!text-[45px]"/>
           <p class="pt-2 text-black">Phụ kiện khác</p>
         </li>
       </ul>
@@ -3865,11 +3859,38 @@
 import MyFooter from "@/views/common/footer/MyFooter.vue";
 import MyHeader from "@/views/common/header/MyHeader.vue";
 import MyNarBar from "./common/narbar/MyNarBar.vue";
+import {CaretRightFilled,
+        FireFilled,ShakeOutlined,
+        MobileOutlined,NotificationFilled,
+        StarOutlined,CustomerServiceFilled,
+        LaptopOutlined,UsbFilled,
+        TabletOutlined,ApiFilled, 
+        CrownFilled,GitlabFilled, 
+        MobileFilled,CalculatorFilled,
+        ThunderboltFilled,ShoppingFilled,
+        FolderAddFilled,DesktopOutlined,
+        PrinterFilled,MergeCellsOutlined,
+        AppleFilled,
+
+} from "@ant-design/icons-vue";
 export default {
   components: {
     MyFooter,
     MyHeader,
     MyNarBar,
+    CaretRightFilled,
+    FireFilled,ShakeOutlined,
+    MobileOutlined,NotificationFilled,
+    StarOutlined,CustomerServiceFilled,
+    LaptopOutlined,UsbFilled,
+    TabletOutlined,ApiFilled,
+    CrownFilled,GitlabFilled, 
+    MobileFilled,CalculatorFilled,
+    ThunderboltFilled,ShoppingFilled,
+    FolderAddFilled,DesktopOutlined,
+    PrinterFilled,MergeCellsOutlined,
+    AppleFilled,
+
   },
   data() {
     return {
@@ -3920,7 +3941,7 @@ export default {
   background-size: cover;
 }
 
-.done2 {
+.done2,.done,.done1 {
   background-color: rgb(179, 7, 7);
   color: #fff;
 }

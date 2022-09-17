@@ -6,11 +6,11 @@
     </div>
     <div class="w-full border-b border-gray-200">
       <div class="w-[1200px] py-2 mb-3 mx-auto ">
-        <a href="/" class="hover:border-b border-blue-700 text-blue-700">Trang chủ</a>
+        <a href="/" class="hover:border-b border-blue-400 text-blue-700">Trang chủ</a>
         /
-        <a href="" class="hover:border-b border-blue-700 text-blue-700">Máy tính bảng</a>
+        <a href="" class="hover:border-b border-blue-400 text-blue-700">Máy tính bảng</a>
         /
-        <a href="" class="hover:border-b border-blue-700 text-blue-700">Apple(iPad)</a>
+        <a href="" class="hover:border-b border-blue-400 text-blue-700">Apple(iPad)</a>
       </div>
       <div class="w-[1200px] mx-auto flex justify-between border-b-2 border-[#ccc] mb-4">
         <div class="flex items-center cursor-default">
@@ -28,26 +28,22 @@
           <div class="mr-3">
             <a
               href=""
-              class="text-blue-700 hover:border-b border-blue-700"
+              class="text-blue-700 hover:border-b border-blue-400"
             >
               178 đánh giá
             </a>
             |
             <a
               href="" 
-              class="text-blue-700 hover:border-b border-blue-700"
+              class="text-blue-700 hover:border-b border-blue-400"
             >
               1809 Hỏi & đáp
             </a>
           </div>
-          <div class="h-5 hover:border-blue-400">
-            <a href="" class="flex text-blue-700 hover:border-b border-blue-700">
-              <div 
-                class="border border-blue-700 rounded-full w-4 h-4 text-center leading-3 mt-[2px] mr-1 hover:border-blue-400"
-              >
-                +
-              </div>
-              <p class="m-0">So sánh</p>
+          <div class="h-[18px] hover:border-blue-400">
+            <a href="" class="flex text-blue-700 hover:border-b border-blue-400 leading-5 flex items-center">
+              <plus-circle-outlined />
+              <p class="m-0 ml-1">So sánh</p>
             </a>
           </div>
         </div>
@@ -76,18 +72,18 @@
               v-if="mobiSlider2"
             >
             <div 
-              class="border border-gray-300 w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-400 absolute top-[160px] left-1 cursor-pointer"
+              class="w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-300 absolute top-[160px] left-2 cursor-pointer"
               v-if="mobiSlider2"
               @click="slider2"
             >
-              <i class="fa-solid fa-angle-left"></i>
+            <left-circle-outlined class="!text-5xl"/>
             </div>
             <div 
-              class="border border-gray-300 w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-400 absolute top-[160px] right-4 cursor-pointer"
+              class=" w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-300 absolute top-[160px] right-4 cursor-pointer"
               v-if="mobiSlider1"
               @click="slider1"
             >
-              <i class="fa-solid fa-chevron-right"></i>
+            <right-circle-outlined class="!text-5xl"/>
             </div>
           </div>
           <!-- left-2 -->
@@ -111,18 +107,18 @@
               v-if="mobiSlider2"
             >
             <div 
-              class="border border-gray-300 w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-400 absolute top-[160px] left-1 cursor-pointer"
+              class="w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-300 absolute top-[160px] left-2 cursor-pointer"
               v-if="mobiSlider2"
               @click="slider2"
             >
-              <i class="fa-solid fa-angle-left"></i>
+            <left-circle-outlined class="!text-5xl"/>
             </div>
             <div 
-              class="border border-gray-300 w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-400 absolute top-[160px] right-4 cursor-pointer"
+              class=" w-10 h-10 text-lg text-center leading-10 rounded-full text-gray-300 absolute top-[160px] right-4 cursor-pointer"
               v-if="mobiSlider1"
               @click="slider1"
             >
-              <i class="fa-solid fa-chevron-right"></i>
+            <right-circle-outlined class="!text-5xl"/>
             </div>
           </div>
 
@@ -130,37 +126,47 @@
             <a 
             href="https://fptshop.com.vn/may-tinh-bang/ipad-10-2-2021-wi-fi?dung-luong=64gb#lg=1&slide=0" 
             class="text-gray-400">
-              <i class="fa-solid fa-images text-4xl"></i>
+              <picture-outlined class="!text-4xl"/>
               <p class="">Xem thêm 7 ảnh</p>
             </a>
             <a 
             href="https://fptshop.com.vn/may-tinh-bang/ipad-10-2-2021-wi-fi?dung-luong=256gb#lg=1&slide=0" 
             class="text-gray-400">
-            <i class="fa-solid fa-box-open text-4xl"></i>
+            <gift-outlined class="!text-4xl"/>
               <p class="">Trong hộp có gì</p>
             </a>
           </div>
 
-          <div class="w-[585px] bg-violet-100 border border-violet-200 px-5 py-3 rounded-md text-gray-600">
-            <div class="mb-1">
-              <i class="fa-solid fa-mobile-screen text-gray-400 mr-2"></i>
-              10.2 inch, IPS LCD, Liquid Retina HD, 2160 x 1620 Pixels
+          <div class="w-[585px] bg-violet-100 border border-violet-200 px-5 py-3 rounded-md text-gray-600 ">
+            <div class="mb-1 flex items-center">
+              <mobile-outlined class="!mr-2"/>
+              <p class="m-0">
+                10.2 inch, IPS LCD, Liquid Retina HD, 2160 x 1620 Pixels
+              </p>
             </div>
-            <div class="mb-1">
-              <i class="fa-solid fa-camera text-gray-400 mr-2"></i>
-              8.0 MP
+            <div class="mb-1 flex items-center">
+              <camera-outlined class="!mr-2"/>
+              <p class="m-0">
+                8.0 MP
+              </p>
             </div>
-            <div class="mb-1">
-              <i class="fa-solid fa-chalkboard-user text-gray-400 mr-2"></i>
-              12.0 MP
+            <div class="mb-1 flex items-center">
+              <reconciliation-outlined class="!mr-2"/>
+              <p class="m-0">
+                12.0 MP
+              </p>
             </div>
-            <div class="mb-1">
-              <i class="fa-solid fa-microchip text-gray-400 mr-2"></i>
-              Apple A13 Bionic
+            <div class="mb-1 flex items-center">
+              <ungroup-outlined class="!mr-2"/>
+              <p class="m-0">
+                Apple A13 Bionic
+              </p>
             </div>
-            <div class="mb-1">
-              <i class="fa-solid fa-hard-drive text-gray-400 mr-2"></i>
-              256 GB
+            <div class="mb-1 flex items-center">
+              <cloud-server-outlined class="!mr-2"/>
+              <p class="m-0">
+                256 GB
+              </p>
             </div>
             <p class="text-blue-500 hover:border-b border-blue-500 inline-block leading-4 cursor-pointer">
               Xem chi tiết thông số kỹ thuật
@@ -294,7 +300,7 @@
                 src="src/assets/img-product/ipad-xam-1.webp" 
                 alt="" 
                 class="w-9 h-9 p-[2px] rounded"
-                :class="{checkBorder: this.checkout2}"
+                :class="{checkBorder1: this.checkout2}"
               >
               Xám
             </div>
@@ -350,12 +356,14 @@
                   </div>
                   <a 
                     href="" 
-                    class="ml-5 hover:border-b border-blue-400"
+                    class="w-[175px] ml-5 hover:border-b border-blue-300 flex items-center"
                     v-if="text1"
                     @click.prevent="showText"
                     >
-                    Xem thêm 2 ưu đãi khác 
-                    <i class="fa-solid fa-angle-down"></i>
+                    <p class="m-0 mr-1">
+                      Xem thêm 2 ưu đãi khác 
+                    </p>
+                    <down-outlined class=""/>
                   </a>
                   <div class="" v-if="text2">
                       <div class="text-[13px] my-1">
@@ -437,11 +445,13 @@
             </div>
             <a 
               href="" 
-              class="hover:border-b border-blue-400" 
+              class="w-[175px] hover:border-b border-blue-300 flex items-center" 
               v-if="!endow"
               @click.prevent="showEndow">
-              Xem thêm 2 ưu đãi khác
-              <i class="fa-solid fa-chevron-down"></i>
+              <p class="m-0 mr-1">
+                Xem thêm 2 ưu đãi khác 
+              </p>
+              <down-outlined class=""/>
             </a>
           </form>
           <div class="mt-5 bg-red-700 text-center text-white rounded-md cursor-pointer hover:opacity-90 p-1">
@@ -464,9 +474,11 @@
                 <a href="" class="text-red-500 hover:text-gray-800 font-bold">1800-6601 </a>
                 để được tư vấn mua hàng (Miễn phí)
               </div>
-              <a href="" class="hover:border-b border-blue-400">
-                <i class="fa-solid fa-location-dot"></i>
-                Tìm shop có hàng gần nhất
+              <a href="" class="hover:border-b border-blue-400 flex items-center">
+                <environment-filled />
+                <p class="m-0">
+                  Tìm shop có hàng gần nhất
+                </p>
               </a>
             </div>
             <div class="border border-gray-400 rounded p-2 my-2">
@@ -543,8 +555,8 @@
                 type="text" 
                 class="w-[300px] border border-gray-400 px-2 py-[2px] outline-blue-300 rounded-l"
                 placeholder="Chọn sản phẩm khác">
-              <span class="bg-gray-300 p-[5.5px] rounded-r text-white">
-                <i class="fa-solid fa-magnifying-glass"></i>
+              <span class="bg-gray-300 p-[5.5px] rounded-r leading-[22px] text-white">
+                <search-outlined class="!text-lg leading-[22px]"/>
               </span>
             </div>
             <div class="mt-4 mb-2 flex items-center">
@@ -726,13 +738,15 @@
               class="w-[665px] h-[443px] mx-auto"
             >
             <div 
-              class="absolute bottom-0 left-0 w-[705px] h-[130px] z-20"
+              class="absolute bottom-0 left-0 w-[705px] h-[130px] z-20 box-shado"
               v-if="btnZom">
               <button 
-                class="border border-gray-800 ml-[300px]  mt-[90px]  text-black bg-white px-1 py-[2px] rounded-md hover:opacity-80"
+                class="flex items-center border border-gray-800 ml-[300px] mt-[90px] text-black bg-white px-1 py-[2px] rounded-md hover:opacity-80"
                 @click.prevent="showZom">
+                <p class="m-0">
                   Đọc thêm
-                  <i class="fa-solid fa-caret-down"></i>
+                </p>
+                <caret-down-outlined />
               </button>
             </div>
           </div>
@@ -869,10 +883,12 @@
               <div class="text-center">
                 <a
                   href="" 
-                  class="leading-[18px] hover:border-b border-blue-400"
+                  class="leading-[18px] w-[150px] hover:border-b border-blue-400 flex items-center"
                 >
-                  Xem cấu hình chi tiết
-                  <i class="fa-solid fa-caret-right text-md"></i>
+                  <p class="m-0">
+                    Xem cấu hình chi tiết
+                  </p>
+                  <caret-right-filled />
                 </a>
               </div>
             </div>
@@ -937,22 +953,22 @@
             </div>
             <div class="cursor-pointer border-y border-gray-300 px-3">
               <div class="text-lg  flex justify-between items-center">
-                <div class="leading-[46px]">
-                  <i class="fa-solid fa-question bg-gray-600 text-gray-100 text-sm px-2 py-[5px] rounded-full"></i>
-                  Trả góp thẻ tín dụng thì được góp mấy tháng?
+                <div class="leading-[46px] flex items-center">
+                  <question-circle-outlined class="!text-2xl !mb-2 !mr-1"/>
+                  <p class="m-0">
+                    Trả góp thẻ tín dụng thì được góp mấy tháng?
+                  </p>
                 </div>
-                <p 
-                  class="px-2 mb-0 leading-[27px] bg-orange-300 rounded-full text-blue-600 hover:opacity-80"
+                <plus-circle-outlined
+                  class="!text-2xl !text-gray-400 !hover:bg-gray-300" 
                   v-if="more"
-                  @click="showMore">
-                  +
-                </p>
-                <p 
-                  class="px-[9px] mb-0 bg-orange-300 rounded-full text-blue-600 hover:opacity-80"
+                  @click="showMore"
+                />
+                <minus-circle-outlined 
+                  class="!text-2xl !text-gray-400 !hover:bg-gray-300" 
                   v-if="!more"
-                  @click="showMore">
-                  -
-                </p>
+                  @click="showMore"
+                />
               </div>
               <div 
                 class="text-gray-500"
@@ -962,22 +978,22 @@
             </div>
             <div class="cursor-pointer px-3 shado">
               <div class="text-lg  flex justify-between items-center">
-                <div class="leading-[46px]">
-                  <i class="fa-solid fa-question bg-gray-600 text-gray-100 text-sm px-2 py-[5px] rounded-full"></i>
-                  Mua sản phẩm tại FPT Shop được hưởng chế độ bảo hành thế nào?
+                <div class="leading-[46px] flex items-center">
+                  <question-circle-outlined class="!text-2xl !mb-2 !mr-1"/>
+                  <p class="m-0">
+                    Mua sản phẩm tại FPT Shop được hưởng chế độ bảo hành thế nào?
+                  </p>
                 </div>
-                <p 
-                  class="px-2 mb-0 leading-[27px] bg-orange-300 rounded-full text-blue-600 hover:opacity-80"
+                <plus-circle-outlined
+                  class="!text-2xl !text-gray-400 !hover:bg-gray-300" 
                   v-if="more1"
-                  @click="showMore1">
-                  +
-                </p>
-                <p 
-                  class="px-[9px] mb-0 bg-orange-300 rounded-full text-blue-600 hover:opacity-80"
+                  @click="showMore1"
+                />
+                <minus-circle-outlined 
+                  class="!text-2xl !text-gray-400 !hover:bg-gray-300" 
                   v-if="!more1"
-                  @click="showMore1">
-                  -
-                </p>
+                  @click="showMore1"
+                />
               </div>
               <div 
                 class="text-gray-500 pb-2"
@@ -1084,10 +1100,12 @@
                 <p class="text-lg mb-1 font-semibold">{{item.name}}</p>
                 <p class="text-xs mb-2 text-gray-400">⭐ ⭐ ⭐ ⭐ ⭐ 8 ngày trước</p>
                 <p class="m-0 text-base text-gray-500">Good quality products and very helpful and knowledgeable staff. {{item.title}}</p>
-                <p class="mt-1 cursor-pointer text-blue-600 hover:text-black w-20"
-                @click="this.like = !this.like">
-                  <i class="fa-solid fa-thumbs-up "></i>
-                  thích ({{like ? "0" : "1"}})
+                <p class="mt-1 cursor-pointer text-blue-600 hover:text-black w-20 flex items-center"
+                  @click="this.like = !this.like">
+                  <like-filled />
+                  <span class="ml-1">
+                    thích ({{like ? "0" : "1"}})
+                  </span>
                 </p>
               </div>
             </li>
@@ -1101,12 +1119,32 @@
 import MyFooter from "@/views/common/footer/MyFooter.vue";
 import MyHeader from "@/views/common/header/MyHeader.vue";
 import MyNarBar from "@/views/common/narbar/MyNarBar.vue";
-import axios from 'axios'
+import axios from 'axios';
+import {
+  RightCircleOutlined,MobileOutlined,
+  LeftCircleOutlined,CameraOutlined, 
+  PictureOutlined,ReconciliationOutlined,
+  GiftOutlined,UngroupOutlined,
+  CloudServerOutlined,DownOutlined,
+  CaretDownOutlined,PlusCircleOutlined,
+  MinusCircleOutlined,QuestionCircleOutlined,
+  LikeFilled,CaretRightFilled,
+  EnvironmentFilled,SearchOutlined
+} from "@ant-design/icons-vue"
 export default {
   components: {
     MyFooter,
     MyHeader,
     MyNarBar,
+    RightCircleOutlined,MobileOutlined,
+    LeftCircleOutlined,CameraOutlined,
+    PictureOutlined,ReconciliationOutlined,
+    GiftOutlined,UngroupOutlined,
+    CloudServerOutlined,DownOutlined,
+    CaretDownOutlined, MinusCircleOutlined,
+    PlusCircleOutlined,QuestionCircleOutlined,
+    LikeFilled,CaretRightFilled,
+    EnvironmentFilled,SearchOutlined
   },
   data() {
     return {
@@ -1117,7 +1155,7 @@ export default {
       checked2: false,
       formLeft1: true,
       formLeft2: false,
-      checkout1: false,
+      checkout1: true,
       checkout2: false,
       text1: true,
       tex2: false,
@@ -1302,13 +1340,23 @@ export default {
 .shado {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.box-shado {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 .zom-img {
   width: 450px;
   height: 410px;
   margin-right: 100px;
 }
 
-.checkBorder {
+.checkBorder,.checkBorder1 {
   border: 1px solid red
 }
 

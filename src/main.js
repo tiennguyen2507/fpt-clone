@@ -1,10 +1,9 @@
 import { createApp } from "vue";
 import "./style.css";
 import "ant-design-vue/dist/antd.css";
+import antd from "ant-design-vue";
 import App from "./App.vue";
 import router from "./router";
-import antd from "ant-design-vue";
-import "../src/static/fontawesome-free-6.1.1-web/css/all.min.css";
 import store from "./store";
 import axios from 'axios';
 import VueAxios from 'vue-axios';

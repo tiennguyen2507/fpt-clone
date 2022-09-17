@@ -6,10 +6,12 @@
           <li class="leading-9 relative show-mobi">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-mobile-screen-button"></i>
+            <mobile-outlined />
+            <p class="my-0 ml-[2px]">
               ĐIỆN THOẠI
+            </p>
             </a>
             <!-- form mobile -->
             <form
@@ -203,10 +205,12 @@
           <li class="leading-9 relative show-loptop">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-laptop"></i>
+            <laptop-outlined />
+            <p class="m-0 ml-[2px]">
               LOPTOP
+            </p>
             </a>
             <!-- form loptop -->
             <form
@@ -369,10 +373,12 @@
           <li class="leading-9 relative show-tablet">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-tv"></i>
+            <tablet-outlined />
+            <p class="m-0 ml-[2px]">
               MÁY TÍNH BẢNG
+            </p>
             </a>
             <!--form máy tinh bảng -->
             <form
@@ -505,10 +511,12 @@
           <li class="leading-9 relative show-apple">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-brands fa-apple"></i>
-              APPLE
+              <apple-filled />
+              <p class="m-0 ml-[2px]">
+                APPLE
+              </p>
             </a>
             <!-- form apple -->
             <form
@@ -644,10 +652,12 @@
           <li class="leading-9 relative show-pc">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-computer"></i>
+            <hdd-filled />
+            <p class="m-0 ml-[2px]">
               PC-LINH KIỆN
+            </p>
             </a>
             <form
               action=""
@@ -664,10 +674,12 @@
           <li class="leading-9 relative show-phone">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 leading-9 flex items-center"
             >
-              <i class="fa-solid fa-headphones-simple"></i>
+            <customer-service-filled />
+            <p class="m-0 ml-[2px]">
               TAI NGHE
+            </p>
             </a>
             <!--form tai nghe  -->
             <form
@@ -810,37 +822,45 @@
           <li class="leading-9">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-arrow-rotate-right"></i>
+            <clock-circle-filled />
+            <p class="m-0 ml-[2px]">
               MÁY CŨ GIÁ RẼ
+            </p>
             </a>
           </li>
           <li class="leading-9">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-house-flag"></i>
+            <shop-filled />
+            <p class="m-0 ml-[2px]">
               HÀNG DA DỤNG
+            </p>
             </a>
           </li>
           <li class="leading-9">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-sim-card"></i>
+            <signal-filled />
+            <p class="m-0 ml-[2px]">
               SIM & THẺ
+            </p>
             </a>
           </li>
           <li class="leading-9 relative show-promo">
             <a
               href=""
-              class="text-sm text-white cursor-pointer hover:text-gray-400"
+              class="text-sm text-white cursor-pointer hover:text-gray-400 flex items-center leading-9"
             >
-              <i class="fa-solid fa-bahai"></i>
+            <gift-filled />
+            <p class="m-0 ml-[2px]">
               KHUYẾN MÃI
+            </p>
             </a>
             <form
               action=""
@@ -862,6 +882,33 @@
   </div>
 </template>
 <script>
-export default {};
+import {
+    MobileOutlined,
+    LaptopOutlined,
+    TabletOutlined,
+    AppleFilled,
+    HddFilled,
+    CustomerServiceFilled,
+    ClockCircleFilled,
+    ShopFilled,
+    SignalFilled,
+    GiftFilled 
+} from "@ant-design/icons-vue";
+export default {
+  components:{
+    MobileOutlined,
+    LaptopOutlined,
+    TabletOutlined,
+    AppleFilled,
+    HddFilled,
+    CustomerServiceFilled,
+    ClockCircleFilled,
+    ShopFilled,
+    SignalFilled,
+    GiftFilled 
+ },
+}
 </script>
-<style lang=""></style>
+<style >
+
+</style>

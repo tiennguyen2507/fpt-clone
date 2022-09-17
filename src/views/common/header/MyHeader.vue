@@ -21,28 +21,40 @@
           alt=""
           class="w-[151] h-10 bg-[#cd1818] rounded"
         />
-        <div class="flex">
-          <input
-            type="text"
+        <div class="flex items-center">
+          <a-select
+            v-model:value="value"
+            mode="multiple"
+            label-in-value
             placeholder="Nhập tên điện thoại,máy tính phụ kiện@.cần tìm"
-            class="rounded-sm w-[496px] h-[38px] px-2 rounded-l-md outline-none"
-          />
-          <button class="bg-[#000000] w-[58px] text-white rounded-r-md">
-            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            class="!w-[486px] !leading-9 !rounded-l-md"
+            :filter-option="false"
+            :not-found-content="fetching ? undefined : null"
+            :options="data"
+            @search="fetchUser"
+          >
+          <template v-if="fetching" #notFoundContent>
+            <a-spin size="small" />
+          </template>
+          </a-select>
+          <button class="bg-[#000000] w-[58px] h-[40px] text-white rounded-r-md">
+            <search-outlined class="!text-xl font-bold"/>
           </button>
         </div>
         <ul
           class="flex justify-between h-[63px] w-[449px] items-center text-white"
         >
           <li
-            class="text-center h-[55px] mt-7 cursor-pointer relative show-info"
+            class="text-center h-[55px] mt-2 cursor-pointer relative show-info"
           >
-            <i class="fa-solid fa-file-lines text-xl"></i>
+            <file-text-outlined class="!text-2xl"/>
             <p class="mt-1 mb-0">Thông tin hay</p>
             <ul
-              class="w-[200px] bg-white text-gray-600 text-start px-3 py-2 shadow-lg absolute z-50 top-[52px] left-0 hidden-info"
+              class="w-[200px] bg-white text-gray-600 text-start px-3 py-2 shadow-lg absolute z-50 top-[55px] left-0 hidden-info"
             >
-              <li class="hover:text-black w-40 h-8 cursor-pointer">Tin mới</li>
+              <li class="hover:text-black w-40 h-8 cursor-pointer">
+                Tin mới
+              </li>
               <li class="hover:text-black w-40 h-8 cursor-pointer">
                 khuyến mãi
               </li>
@@ -64,16 +76,16 @@
               <li class="hover:text-black w-40 h-8 cursor-pointer">Sự kiện</li>
             </ul>
           </li>
-          <li class="text-center h-[63px] mt-7 cursor-pointer">
-            <i class="fa-solid fa-file-invoice-dollar text-xl"></i>
+          <li class="text-center h-[63px] mt-4 cursor-pointer">
+            <dollar-outlined class="!text-2xl"/> 
             <p class="mt-1 mb-0">Thanh toán & tiện ích</p>
           </li>
-          <li class="text-center h-[63px] mt-7">
-            <i class="fa-solid fa-circle-user text-xl"></i>
+          <li class="text-center h-[63px] mt-4 cursor-pointer">
+            <contacts-filled class="!text-2xl"/>
             <p class="mt-1 mb-0">Tài khoản của tôi</p>
           </li>
-          <li class="text-center h-[63px] mt-7">
-            <i class="fa-solid fa-cart-shopping text-xl"></i>
+          <li class="text-center h-[63px] mt-4 cursor-pointer">
+            <shopping-cart-outlined class="!text-2xl"/>
             <p class="mt-1 mb-0">Giỏ hàng</p>
           </li>
         </ul>
@@ -82,13 +94,71 @@
   </div>
 </template>
 <script>
-export default {};
+import {
+  SearchOutlined,
+  FileTextOutlined,
+  DollarOutlined,
+  ContactsFilled,
+  ShoppingCartOutlined
+} from "@ant-design/icons-vue";
+import { defineComponent, reactive, toRefs, watch } from 'vue';
+import { debounce } from 'lodash-es';
+export default defineComponent({
+  components:{
+  SearchOutlined,
+  FileTextOutlined,
+  DollarOutlined,
+  ContactsFilled,
+  ShoppingCartOutlined
+  },
+  setup() {
+    let lastFetchId = 0;
+
+    const state = reactive({
+      data: [],
+      value: [],
+      fetching: false,
+    });
+
+    const fetchUser = debounce(value => {
+      console.log('fetching user', value);
+      lastFetchId += 1;
+      const fetchId = lastFetchId;
+      state.data = [];
+      state.fetching = true;
+      fetch('https://randomuser.me/api/?results=5')
+        .then(response => response.json())
+        .then(body => {
+          if (fetchId !== lastFetchId) {
+            // for fetch callback order
+            return;
+          }
+          const data = body.results.map(user => ({
+            label: `${user.name.first} ${user.name.last}`,
+            value: user.login.username,
+          }));
+          state.data = data;
+          state.fetching = false;
+        });
+    }, 300);
+
+    watch(state.value, () => {
+      state.data = [];
+      state.fetching = false;
+    });
+
+    return {
+      ...toRefs(state),
+      fetchUser,
+    };
+  },
+});
+
 </script>
 <style scoped>
 .show-info:hover > .hidden-info {
   display: block;
 }
-
 .hidden-info {
   display: none;
 }
